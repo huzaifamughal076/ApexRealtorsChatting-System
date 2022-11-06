@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.apex_realtors_chatting_system">
-   <application
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
         android:label="apex_realtors_chatting_system"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
