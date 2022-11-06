@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "950064604504",
+    "project_id": "apexrealtorschattingsystem",
+    "storage_bucket": "apexrealtorschattingsystem.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950064604504:android:202e90ce6b1a4c397b712d",
+        "android_client_info": {
+          "package_name": "com.example.apex_realtors_chatting_system"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950064604504-kksv2b5pcido2ml0nl23ndsup631lnf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apex_realtors_chatting_system",
+            "certificate_hash": "954f95857cdf6da9d8617caba93dadef1ee903b9"
+          }
+        },
+        {
+          "client_id": "950064604504-6qojorqb1u92b6f381eq82bm28h4fokk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAscXH0cuPKECaJOpPrGzWOGj2g0UM0QoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950064604504-6qojorqb1u92b6f381eq82bm28h4fokk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
