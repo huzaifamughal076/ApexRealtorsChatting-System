@@ -191,6 +191,7 @@ class _LoginScreenState extends State<LoginScreen> {
            //saving the sharedPreference state
            await HelperFunctions.saveUserLoggedInStatus(true);
            await HelperFunctions.saveUserNameSF(snapshot.docs[0]['name']);
+           print("Hwllllo"+snapshot.docs[0]['name']);
            await HelperFunctions.saveUserEmailSF(Email);
            await HelperFunctions.saveUserPhoneSF(snapshot.docs[0]['phone']);
            Get.offAll(HomeScreen());

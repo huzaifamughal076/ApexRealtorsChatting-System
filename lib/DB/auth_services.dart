@@ -1,6 +1,9 @@
 import 'package:apex_realtors_chatting_system/DB/DatabaseServices.dart';
+import 'package:apex_realtors_chatting_system/Screen/LoginScreen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:get/get.dart';
+import 'package:get/get_core/src/get_main.dart';
 
 import '../SharedPreferences/helper_function.dart';
 
@@ -55,6 +58,7 @@ Future signout()async{
     await HelperFunctions.saveUserEmailSF("");
     await HelperFunctions.saveUserPhoneSF("");
     await firebaseAuth.signOut();
+    Get.offAll(LoginScreen());
   }catch (e)
   {
     return null;
