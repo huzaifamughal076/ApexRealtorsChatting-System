@@ -220,34 +220,34 @@ class _SignUpScreenState extends State<SignUpScreen> {
                     ),
                   ),
                 ),
-                // InkWell(
-                //   onTap: (){
-                //     register();
-                //   },
-                //   child: Container(
-                //     padding: EdgeInsets.fromLTRB(40,10,40,10),
-                //     margin: EdgeInsets.all(10),
-                //     decoration: BoxDecoration(
-                //         borderRadius: BorderRadius.circular(20),
-                //         color: Colors.blueAccent
-                //     ),
-                //     child: Text("Sign Up",style: TextStyle(color: Colors.white),),
-                //   ),
-                // ),
-
                 InkWell(
                   onTap: (){
                     register();
                   },
                   child: Container(
-                    margin: EdgeInsets.all(30),
-                    padding: EdgeInsets.all(30),
+                    padding: EdgeInsets.fromLTRB(40,10,40,10),
+                    margin: EdgeInsets.all(10),
                     decoration: BoxDecoration(
-                      color: Colors.amber
+                        borderRadius: BorderRadius.circular(20),
+                        color: Colors.blueAccent
                     ),
-                    child: Text("Sign Up"),
+                    child: Text("Sign Up",style: TextStyle(color: Colors.white),),
                   ),
                 ),
+
+                // InkWell(
+                //   onTap: (){
+                //     register();
+                //   },
+                //   child: Container(
+                //     margin: EdgeInsets.all(30),
+                //     padding: EdgeInsets.all(30),
+                //     decoration: BoxDecoration(
+                //       color: Colors.amber
+                //     ),
+                //     child: Text("Sign Up"),
+                //   ),
+                // ),
                 SizedBox(
                   height: 30,
                 ),
